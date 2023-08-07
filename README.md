@@ -44,7 +44,7 @@ the base data called [listings.csv](https://github.com/romanwolf-git/price_model
 
 ## Results<a name="results"></a>
 
-I wrote an article on medium.com on my findings which you can find [here](https://medium.com/@romanwolf_22352/kill-your-darling-features-bc5dc62c47ef).
+I wrote an article on medium.com on my findings which you can find [here](https://medium.com/@romanwolf_22352/what-drives-the-price-of-an-airbnb-9f17019954d4).
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
