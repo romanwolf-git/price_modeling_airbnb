@@ -17,13 +17,13 @@ correlation analysis using Pearson's correlation, phi-k and variance thresholdin
 ## Installation <a name="installation"></a>
 
 1. Download and install Jupyter Notebook: conda install jupyter or pip install jupyter
-2. Clone the repository: git clone https://github.com/romanwolf-git/Airbnb_Melbourne.git
+2. Clone the repository: git clone https://github.com/romanwolf-git/price_modeling_airbnb
 2. Install packages: 'conda install --file requirements.txt' or 'pip install requirements.txt'
 3. Run the notebook and execute the cells.
 
 ## Features <a name="features"></a>
 
-* Pearson's correlation
+* Pearson's correlation [Link to My Jupyter Notebook](https://github.com/username/repo/blob/main/notebook.ipynb#my-anchor)
 * Phi-k correlation matrix
 * Significance matrix
 * Variance thresholding
