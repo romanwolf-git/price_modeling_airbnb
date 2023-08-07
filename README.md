@@ -1,9 +1,8 @@
-# Airbnb Melbourne
+# What drives the price of an Airbnb?
 
-In this project I worked with Airbnb data from insideairbnb.com for Melbourne.
-My overall aim is to predict the price of an Airbnb. In order to reduce the number
-of features, improve model performance and avoid overfitting I conduct a 
-correlation analysis using Pearson's correlation, phi-k and variance thresholding.
+In this project I seek for the answer to the question: "what drives the price of an Airbnb".
+I answer the question by modeling the price using few statistically selected features.
+My work is based on scraped data from [insideairbnb.com](http://insideairbnb.com/) for Melbourne.
 
 ## Table of Contents
 
@@ -23,9 +22,8 @@ correlation analysis using Pearson's correlation, phi-k and variance thresholdin
 
 ## Features <a name="features"></a>
 
-* Pearson's correlation [Link to My Jupyter Notebook](https://github.com/username/repo/blob/main/notebook.ipynb#my-anchor)
-* Phi-k correlation matrix
-* Significance matrix
+* Pearson's correlation
+* Phi-k correlation analysis
 * Variance thresholding
 * Price prediction with LGBMRegressor
 * Plotting of learning curves with cross validation
@@ -33,16 +31,16 @@ correlation analysis using Pearson's correlation, phi-k and variance thresholdin
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I used Airbnbn data from insideairbnb.com to answer following questions:
+The goal of this project is to answer the following questions:
 
-1. Can a simple regression model be created to predict the price of an Airbnb? What is the model's predictive error?
-2. Can over- or underfitting be ruled out based on learning curves?
-3. Can feature selection using Pearson's correlation, ϕk-correlation, and variance thresholding help improve the model's predictive error? How does model tuning impact the model's performance?
+1. Can the price of an Airbnb be predicted? Which model predicts best with the least error?
+2. What are the most important features to predict the price of an Airbnb?
+3. How many features are necessary to predict the price of an Airbnb?
 
 ## File Descriptions <a name="files"></a>
 
-There is one jupyter notebook called kill_your_darlings.ipynb,
-the base data called listings.csv and the requirements.txt
+There is one jupyter notebook called [what_drives_the_price_of_an_Airbnb.ipynb](https://github.com/romanwolf-git/price_modeling_airbnb/blob/main/what_drives_the_price_of_an_Airbnb.ipynb),
+the base data called [listings.csv](https://github.com/romanwolf-git/price_modeling_airbnb/blob/main/listings.csv) and the requirements.txt
 
 ## Results<a name="results"></a>
 
@@ -50,4 +48,4 @@ I wrote an article on medium.com on my findings which you can find [here](https:
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-Must give credit to insideairbnb.com for the data. 
+Must give credit to [insideairbnb.com](http://insideairbnb.com/) for the data.
